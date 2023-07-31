@@ -1,11 +1,7 @@
 import styles from './page.module.css';
 import Logo from './components/Logo/index.js'
-import perfil from '../../public/images/perfil.svg'
-import sacola from '../../public/images/sacola.svg'
 import OpcoesHeader from './components/OpcoesHeader';
-
-
-let icones = [perfil, sacola]
+import IconesHeader from './components/IconesHeader';
 
 export default function Home() {
   return (
@@ -13,11 +9,7 @@ export default function Home() {
       <header className='Home-header'>
         <Logo />
         <OpcoesHeader/>
-        <ul className='icones'>
-            {icones.map((icone) => (
-              <li className='icone'><img src={icone.src}></img></li>
-            ))}
-        </ul>
+        <IconesHeader/>
       </header>
     </div>
   )
