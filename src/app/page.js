@@ -18,7 +18,6 @@ export default function Home() {
               <li className='icone'><img src={icone.src}></img></li>
             ))}
         </ul>
-
       </header>
     </div>
   )
