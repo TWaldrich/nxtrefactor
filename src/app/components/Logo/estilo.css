@@ -1,3 +1,34 @@
 .logo{
     display:flex;
+    font-size:30px;
+}
+.logo-img{
+    margin-right: 10px;
+    
+}
+.opcoes{
+    display: flex;
+}
+.opcao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 16px;
+    min-width: 120px;
+    height:100;
+    padding: 0 5px;
+    cursor:pointer;
+    text-align: center;
+}
+.icones{
+    display: flex;
+    align-items: center;
+}
+.icone{
+    margin-right: 40px;
+    width: 25px;
+}
+li{
+    list-style: none;
 }

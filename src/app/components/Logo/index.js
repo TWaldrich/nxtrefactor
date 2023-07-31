@@ -6,7 +6,7 @@ import logo from '../../../../public/images/logo.svg';
 export default function Logo() {
     return (
         <div className='logo'>
-            <img src={logo.src} alt="Logo" />
+            <img src={logo.src} className='logo-img' alt="Logo" />
             <p> <strong>Nx</strong> Refactor</p>
         </div>
     )
