@@ -1,6 +1,7 @@
 import React from 'react'
 import perfil from '../../../../public/images/perfil.svg'
 import sacola from '../../../../public/images/sacola.svg'
+import './estilos.css';
 
 const IconesHeader = () => {
     let icones = [perfil, sacola]
