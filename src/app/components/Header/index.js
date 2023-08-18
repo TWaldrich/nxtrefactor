@@ -2,16 +2,23 @@ import React from 'react'
 import IconesHeader from '../IconesHeader'
 import OpcoesHeader from '../OpcoesHeader'
 import Logo from '../Logo/index'
-import './estilo.css'
+import styled from 'styled-components';
+
+
+const HeaderContainer = styled.header`
+background-color: #FFF;
+display: flex;
+justify-content: center;
+`
 
 const Header = () => {
     return (
 
-        <header className='Home-header'>
+        <HeaderContainer>
             <Logo />
             <OpcoesHeader />
             <IconesHeader />
-        </header>
+        </HeaderContainer>
     )
 }
 
